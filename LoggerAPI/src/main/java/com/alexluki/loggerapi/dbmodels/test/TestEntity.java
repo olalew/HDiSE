@@ -1,4 +1,4 @@
-package com.alexluki.loggerapi.dbmodels;
+package com.alexluki.loggerapi.dbmodels.test;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class PingController {
 
     @GetMapping("/ping")
-    public String sayHello(@RequestParam boolean value) {
-        return String.format("Pinged value: %b!", value);
+    public String sayHello() {
+        return String.format("Pinged");
     }
 
 }

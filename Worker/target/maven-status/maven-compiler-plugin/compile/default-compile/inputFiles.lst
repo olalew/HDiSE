@@ -1,1 +1,4 @@
-/home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/src/main/java/com/alexluk/worker/Main.java
+/home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/Main.java
+/home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/enums/WorkerMode.java
+/home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/interfaces/IPropagationService.java
+/home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/services/TestPropagationService.java

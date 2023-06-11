@@ -1,1 +1,5 @@
+com/alexluk/worker/Main$1.class
 com/alexluk/worker/Main.class
+com/alexluk/worker/interfaces/IPropagationService.class
+com/alexluk/worker/enums/WorkerMode.class
+com/alexluk/worker/services/TestPropagationService.class

@@ -1,6 +1,6 @@
 package com.alexluki.loggerapi.services;
 
-import com.alexluki.loggerapi.dbmodels.TestEntity;
+import com.alexluki.loggerapi.dbmodels.test.TestEntity;
 import com.alexluki.loggerapi.repositories.TestRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

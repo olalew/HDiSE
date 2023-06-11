@@ -1,6 +1,6 @@
 package com.alexluki.loggerapi.controllers;
 
-import com.alexluki.loggerapi.dbmodels.TestEntity;
+import com.alexluki.loggerapi.dbmodels.test.TestEntity;
 import com.alexluki.loggerapi.services.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
