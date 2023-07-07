@@ -1,6 +1,5 @@
-package com.alexluki.loggerapi.dbmodels;
+package com.alexluk.worker.models.entities;
 
-import jakarta.persistence.*;
 import lombok.*;
 
 @Getter
@@ -8,19 +7,12 @@ import lombok.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
-@Table(name = "process_record")
 public class ProcessRecord {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
     private String processUser;
+    private String user;
     private Integer pid;
-    private Double cpu;
+    private String cpu;
     private Double mem;
     private String time;
     private String command;
 }
-

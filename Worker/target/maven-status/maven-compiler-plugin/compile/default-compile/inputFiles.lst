@@ -1,4 +1,12 @@
+/home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/services/HardwarePropagationService.java
+/home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/models/requests/ProcessRecordRequest.java
+/home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/services/CPUPropagationService.java
+/home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/services/LogPropagationService.java
 /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/Main.java
+/home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/models/requests/DeviceRequest.java
+/home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/models/entities/ProcessRecord.java
+/home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/services/BaseInfoPropagationService.java
 /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/enums/WorkerMode.java
 /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/interfaces/IPropagationService.java
 /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/services/TestPropagationService.java
+/home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/src/main/java/com/alexluk/worker/services/ProcessListPropagationService.java

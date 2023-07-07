@@ -2,37 +2,33 @@ package com.alexluk.worker;
 
 import com.alexluk.worker.enums.WorkerMode;
 import com.alexluk.worker.interfaces.IPropagationService;
-import com.alexluk.worker.services.TestPropagationService;
+import com.alexluk.worker.services.*;
 
 public class Main {
     public static void main(String[] args) {
-        if (args.length >= 3) {
-            int infoTypeValue = Integer.parseInt(args[1]);
-            String jsonParameter = args[2];
+        if (args.length >= 2) {
+            int infoTypeValue = Integer.parseInt(args[0]);
+            String jsonParameter = args[1];
 
             IPropagationService propagationService = null;
             WorkerMode workerType = getInfoTypeFromValue(infoTypeValue);
             if (workerType != null) {
                 switch (workerType) {
                     case PROCESS_LIST:
-                        // Handle process list option with JSON
                         System.out.println("Processing process list with JSON: " + jsonParameter);
-                        break;
-                    case HARDWARE_INFO:
-                        // Handle hardware info option with JSON
-                        System.out.println("Processing hardware info with JSON: " + jsonParameter);
+                        propagationService = new ProcessListPropagationService();
                         break;
                     case CPU_INFO:
-                        // Handle CPU info option with JSON
                         System.out.println("Processing CPU info with JSON: " + jsonParameter);
+                        propagationService = new CPUPropagationService();
                         break;
                     case BASE_INFO:
-                        // Handle base info option with JSON
                         System.out.println("Processing base info with JSON: " + jsonParameter);
+                        propagationService = new BaseInfoPropagationService();
                         break;
                     case LOGS:
-                        // Handle logs option with JSON
                         System.out.println("Processing logs with JSON: " + jsonParameter);
+                        propagationService = new LogPropagationService();
                         break;
                     case TEST:
                         propagationService = new TestPropagationService();

@@ -1,21 +1,20 @@
 package com.alexluki.loggerapi.services;
 
 import com.alexluki.loggerapi.dbmodels.test.TestEntity;
-import com.alexluki.loggerapi.repositories.TestRepository;
+import com.alexluki.loggerapi.repositories.ITestRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class TestService {
-    private final TestRepository testRepository;
+    private final ITestRepository testRepository;
 
     @Autowired
-    public TestService(TestRepository testRepository) {
+    public TestService(ITestRepository testRepository) {
         this.testRepository = testRepository;
     }
 
     public TestEntity createUser(TestEntity user) {
-        user.setName("Cool");
         return testRepository.save(user);
     }
 }
