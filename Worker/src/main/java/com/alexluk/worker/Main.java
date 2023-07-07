@@ -14,25 +14,23 @@ public class Main {
             WorkerMode workerType = getInfoTypeFromValue(infoTypeValue);
             if (workerType != null) {
                 switch (workerType) {
-                    case PROCESS_LIST:
+                    case PROCESS_LIST -> {
                         System.out.println("Processing process list with JSON: " + jsonParameter);
                         propagationService = new ProcessListPropagationService();
-                        break;
-                    case CPU_INFO:
+                    }
+                    case CPU_INFO -> {
                         System.out.println("Processing CPU info with JSON: " + jsonParameter);
                         propagationService = new CPUPropagationService();
-                        break;
-                    case BASE_INFO:
+                    }
+                    case BASE_INFO -> {
                         System.out.println("Processing base info with JSON: " + jsonParameter);
                         propagationService = new BaseInfoPropagationService();
-                        break;
-                    case LOGS:
+                    }
+                    case LOGS -> {
                         System.out.println("Processing logs with JSON: " + jsonParameter);
                         propagationService = new LogPropagationService();
-                        break;
-                    case TEST:
-                        propagationService = new TestPropagationService();
-                        break;
+                    }
+                    case TEST -> propagationService = new TestPropagationService();
                 }
 
                 if (propagationService != null) {
@@ -42,7 +40,7 @@ public class Main {
                 System.err.println("Invalid info type value: " + infoTypeValue);
             }
         } else {
-            System.err.println("Insufficient parameters provided.");
+            System.err.println("Insufficient parameters provided!");
         }
     }
 
