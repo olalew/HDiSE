@@ -38,6 +38,7 @@ done
 # Remove the trailing comma and close the JSON array
 json="${json%,}]"
 
+echo $json
 
 # Execute Java code with a parameter
 java -jar /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/worker.jar 0 "$json" >> log.txt
