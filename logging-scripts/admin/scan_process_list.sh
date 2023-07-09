@@ -41,4 +41,4 @@ json="${json%,}]"
 echo $json
 
 # Execute Java code with a parameter
-java -jar /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/worker.jar 0 "$json" >> log.txt
+java -jar /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/worker.jar 3 "$json" >> log.txt

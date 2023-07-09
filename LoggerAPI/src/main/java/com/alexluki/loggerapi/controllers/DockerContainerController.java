@@ -62,4 +62,11 @@ public class DockerContainerController {
         return new ResponseEntity<>(updatedContainer, HttpStatus.OK);
     }
 
+    @PutMapping("/status/batch/{deviceId}")
+    public ResponseEntity updateContainerStatus(@PathVariable UUID deviceId,
+                                                                       @RequestBody List<DockerContainerStatusUpdateDTO> statusUpdate) {
+        dockerContainerService.updateContainerStatusList(deviceId, statusUpdate);
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
+
 }

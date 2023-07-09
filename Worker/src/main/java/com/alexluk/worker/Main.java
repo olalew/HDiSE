@@ -1,55 +1,12 @@
 package com.alexluk.worker;
 
-import com.alexluk.worker.enums.WorkerMode;
-import com.alexluk.worker.interfaces.IPropagationService;
-import com.alexluk.worker.services.*;
-
 public class Main {
+    private static boolean IS_DEVELOPMENT = false;
     public static void main(String[] args) {
-        if (args.length >= 2) {
-            int infoTypeValue = Integer.parseInt(args[0]);
-            String jsonParameter = args[1];
-
-            IPropagationService propagationService = null;
-            WorkerMode workerType = getInfoTypeFromValue(infoTypeValue);
-            if (workerType != null) {
-                switch (workerType) {
-                    case PROCESS_LIST -> {
-                        System.out.println("Processing process list with JSON: " + jsonParameter);
-                        propagationService = new ProcessListPropagationService();
-                    }
-                    case CPU_INFO -> {
-                        System.out.println("Processing CPU info with JSON: " + jsonParameter);
-                        propagationService = new CPUPropagationService();
-                    }
-                    case BASE_INFO -> {
-                        System.out.println("Processing base info with JSON: " + jsonParameter);
-                        propagationService = new BaseInfoPropagationService();
-                    }
-                    case LOGS -> {
-                        System.out.println("Processing logs with JSON: " + jsonParameter);
-                        propagationService = new LogPropagationService();
-                    }
-                    case TEST -> propagationService = new TestPropagationService();
-                }
-
-                if (propagationService != null) {
-                    propagationService.propagate(workerType, jsonParameter);
-                }
-            } else {
-                System.err.println("Invalid info type value: " + infoTypeValue);
-            }
+        if (IS_DEVELOPMENT) {
+            MainTestRun.main(args);
         } else {
-            System.err.println("Insufficient parameters provided!");
+            MainDefaultRun.main(args);
         }
-    }
-
-    private static WorkerMode getInfoTypeFromValue(int value) {
-        for (WorkerMode workerType : WorkerMode.values()) {
-            if (workerType.getValue() == value) {
-                return workerType;
-            }
-        }
-        return null;
     }
 }

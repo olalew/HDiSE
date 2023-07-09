@@ -24,3 +24,5 @@ done | sed '$ s/,$//' | awk 'BEGIN{print "{"}{print}END{print "}"}'
 
 # Print the variable
 echo "$json_output"
+
+java -jar /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/worker.jar 2 "$json_output" >> log.txt

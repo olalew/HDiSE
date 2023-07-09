@@ -1,9 +1,11 @@
 package com.alexluk.worker.interfaces;
 
-import com.alexluk.worker.enums.WorkerMode;
+import java.util.UUID;
 
 public interface IPropagationService {
 
-    void propagate(WorkerMode mode, String json);
+    void propagate(String json, UUID deviceId) throws Exception;
+
+    String prepareObject(String input);
 
 }

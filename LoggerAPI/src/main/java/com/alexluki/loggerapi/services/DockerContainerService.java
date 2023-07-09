@@ -73,4 +73,11 @@ public class DockerContainerService {
 
         return dockerContainerRepository.save(container);
     }
+
+    @Transactional
+    public void updateContainerStatusList(UUID deviceId, List<DockerContainerStatusUpdateDTO> list) {
+        list.forEach(element -> {
+            updateContainerStatus(deviceId, element);
+        });
+    }
 }
