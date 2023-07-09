@@ -1,0 +1,44 @@
+{"id":4,"name":"Some cool test name"}
+{"id":5,"name":"Some cool test name"}
+Registering the device
+{"id":21,"deviceId":"4feb26e7-6eea-4bc5-a021-bfc4b39b48b4","createDate":"2023-07-09T17:50:58.06528","macAddress":"c8:cb:9e:92:1a:85","computerName":"fedora","distribution":"Fedora release 38 (Thirty Eight)","osVersion":"38","kernelVersion":"6.3.8-200.fc38.x86_64","systemArchitecture":"x86_64","ipAddress":"192.168.0.38","cpuModel":"12th Gen Intel(R) Core(TM) i9-12900H","cpuCores":"20","cpuSpeed":"","ramSize":"31739","ramType":"None","storageSize":"2.0T","storageType":"","graphicsCardModel":"02.0 VGA compatible controller 00.0 VGA compatible controller","graphicsCardMemory":null,"screenResolution":"","networkCardModel":"14.3 Network controller","soundCardModel":"1f.3 Audio device 00.1 Audio device","powerSupply":"Unknown","motherboardModel":"G533ZX","biosVersion":"G533ZX.319"}
+Device id path: /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/deviceId.txt
+{
+  "vulnerabilitySrbds": "            Not affected",
+  "stepping": "                       3",
+  "vulnerabilityMeltdown": "         Not affected",
+  "l3Cache": "                       24 MiB (1 instance)",
+  "cpuMinMhz": "                    400.0000",
+  "vendorId": "                      GenuineIntel",
+  "vulnerabilityRetbleed": "         Not affected",
+  "vulnerabilitySpecStoreBypass": "Mitigation; Speculative Store Bypass disabled via prctl",
+  "byteOrder": "                     Little Endian",
+  "vulnerabilitySpectreV1": "       Mitigation; usercopy/swapgs barriers and __user pointer sanitization",
+  "vulnerabilitySpectreV2": "       Mitigation; Enhanced / Automatic IBRS, IBPB conditional, RSB filling, PBRSB-eIBRS SW sequence",
+  "virtualization": "                 VT-x",
+  "addressSizes": "                  46 bits physical, 48 bits virtual",
+  "numaNode(s)": "                   1",
+  "socket(s)": "                      1",
+  "numaNode0Cpu(s)": "              0-19",
+  "l2Cache": "                       11.5 MiB (8 instances)",
+  "vulnerabilityItlbMultihit": "    Not affected",
+  "model": "                          154",
+  "cpuOp-mode(s)": "                 32-bit, 64-bit",
+  "architecture": "                   x86_64",
+  "cpu(s)ScalingMhz": "             36%",
+  "vulnerabilityL1tf": "             Not affected",
+  "cpuMaxMhz": "                    5000.0000",
+  "l1dCache": "                      544 KiB (14 instances)",
+  "l1iCache": "                      704 KiB (14 instances)",
+  "cpuFamily": "                     6",
+  "core(s)PerSocket": "             14",
+  "thread(s)PerCore": "             2",
+  "vulnerabilityMmioStaleData": "  Not affected",
+  "modelName": "                     12th Gen Intel(R) Core(TM) i9-12900H",
+  "vulnerabilityMds": "              Not affected",
+  "on-lineCpu(s)List": "            0-19",
+  "cpu(s)": "                         20",
+  "vulnerabilityTsxAsyncAbort": "  Not affected",
+  "bogomips": "                       5836.80"
+}
+{"id":"c5110ea0-5152-4067-a7d1-7552c9cea23d","device":{"id":21,"deviceId":"4feb26e7-6eea-4bc5-a021-bfc4b39b48b4","createDate":"2023-07-09T17:50:58.06528","macAddress":"c8:cb:9e:92:1a:85","computerName":"fedora","distribution":"Fedora release 38 (Thirty Eight)","osVersion":"38","kernelVersion":"6.3.8-200.fc38.x86_64","systemArchitecture":"x86_64","ipAddress":"192.168.0.38","cpuModel":"12th Gen Intel(R) Core(TM) i9-12900H","cpuCores":"20","cpuSpeed":"","ramSize":"31739","ramType":"None","storageSize":"2.0T","storageType":"","graphicsCardModel":"02.0 VGA compatible controller 00.0 VGA compatible controller","graphicsCardMemory":null,"screenResolution":"","networkCardModel":"14.3 Network controller","soundCardModel":"1f.3 Audio device 00.1 Audio device","powerSupply":"Unknown","motherboardModel":"G533ZX","biosVersion":"G533ZX.319"},"vulnerabilitySrbds":"            Not affected","stepping":"                       3","vulnerabilityMeltdown":"         Not affected","l3Cache":"                       24 MiB (1 instance)","cpuMinMhz":"                    400.0000","vendorId":"                      GenuineIntel","vulnerabilityRetbleed":"         Not affected","vulnerabilitySpecStoreBypass":"Mitigation; Speculative Store Bypass disabled via prctl","byteOrder":"                     Little Endian","vulnerabilitySpectreV1":"       Mitigation; usercopy/swapgs barriers and __user pointer sanitization","vulnerabilitySpectreV2":"       Mitigation; Enhanced / Automatic IBRS, IBPB conditional, RSB filling, PBRSB-eIBRS SW sequence","virtualization":"                 VT-x","addressSizes":"                  46 bits physical, 48 bits virtual","numaNodes":null,"sockets":null,"numaNode0Cpus":null,"l2Cache":"                       11.5 MiB (8 instances)","vulnerabilityItlbMultihit":"    Not affected","model":"                          154","cpuOpModes":null,"architecture":"                   x86_64","cpusScalingMhz":null,"vulnerabilityL1tf":"             Not affected","cpuMaxMhz":"                    5000.0000","l1dCache":"                      544 KiB (14 instances)","l1iCache":"                      704 KiB (14 instances)","cpuFamily":"                     6","coresPerSocket":null,"threadsPerCore":null,"vulnerabilityMmioStaleData":"  Not affected","modelName":"                     12th Gen Intel(R) Core(TM) i9-12900H","vulnerabilityMds":"              Not affected","onlineCpusList":null,"cpus":null,"vulnerabilityTsxAsyncAbort":"  Not affected","bogoMips":null}

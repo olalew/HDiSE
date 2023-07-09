@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source ./docker/read_images.sh
+source ./docker/read_docker_containers.sh
+source ./docker/read_logs.sh
