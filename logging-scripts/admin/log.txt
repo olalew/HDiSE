@@ -204,3 +204,9 @@ Device id path: /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/devic
     "message": "released daemon: :1.3230"
   }
 ]
+Registering the device
+{"id":19,"deviceId":"734ffd01-3d8b-4d26-a6bf-102fed0a251c","createDate":"2023-07-09T17:44:10.237858","macAddress":"c8:cb:9e:92:1a:85","computerName":"fedora","distribution":"Fedora release 38 (Thirty Eight)","osVersion":"38","kernelVersion":"6.3.8-200.fc38.x86_64","systemArchitecture":"x86_64","ipAddress":"192.168.0.38","cpuModel":"12th Gen Intel(R) Core(TM) i9-12900H","cpuCores":"20","cpuSpeed":"","ramSize":"31739","ramType":"None","storageSize":"2.0T","storageType":"","graphicsCardModel":"02.0 VGA compatible controller 00.0 VGA compatible controller","graphicsCardMemory":null,"screenResolution":"","networkCardModel":"14.3 Network controller","soundCardModel":"1f.3 Audio device 00.1 Audio device","powerSupply":"Unknown","motherboardModel":"G533ZX","biosVersion":"G533ZX.319"}
+Device id path: /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/deviceId.txt
+Registering the device
+{"id":20,"deviceId":"116c3355-13e0-4104-860b-169b2c49150c","createDate":"2023-07-09T17:44:28.840829","macAddress":"c8:cb:9e:92:1a:85","computerName":"fedora","distribution":"Fedora release 38 (Thirty Eight)","osVersion":"38","kernelVersion":"6.3.8-200.fc38.x86_64","systemArchitecture":"x86_64","ipAddress":"192.168.0.38","cpuModel":"12th Gen Intel(R) Core(TM) i9-12900H","cpuCores":"20","cpuSpeed":"","ramSize":"31739","ramType":"None","storageSize":"2.0T","storageType":"","graphicsCardModel":"02.0 VGA compatible controller 00.0 VGA compatible controller","graphicsCardMemory":null,"screenResolution":"","networkCardModel":"14.3 Network controller","soundCardModel":"1f.3 Audio device 00.1 Audio device","powerSupply":"Unknown","motherboardModel":"G533ZX","biosVersion":"G533ZX.319"}
+Device id path: /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/deviceId.txt

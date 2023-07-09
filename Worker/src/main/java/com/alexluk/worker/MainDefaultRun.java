@@ -38,6 +38,15 @@ public class MainDefaultRun {
                     case INVALIDATE_DOCKER_IMAGE_INFO -> {
                         propagationService = new InvalidateDockerImageInfoPropagationService();
                     }
+                    case SAVE_DOCKER_CONTAINER_INFO -> {
+                        propagationService = new SaveDockerContainerInfoPropagationService();
+                    }
+                    case INVALIDATE_DOCKER_CONTAINER_INFO -> {
+                        propagationService = new InvalidateDockerContainerInfoPropagationService();
+                    }
+                    case SAVE_DOCKER_CONTAINER_LOGS -> {
+                        propagationService = new SaveDockerContainerLogsPropagationService();
+                    }
                 }
 
                 if (propagationService != null) {

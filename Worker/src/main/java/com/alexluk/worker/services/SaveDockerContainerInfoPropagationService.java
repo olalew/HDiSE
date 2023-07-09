@@ -26,6 +26,6 @@ public class SaveDockerContainerInfoPropagationService implements IPropagationSe
 
     @Override
     public String prepareObject(String input) {
-        return null;
+        return input.replace("id", "containerId");
     }
 }
