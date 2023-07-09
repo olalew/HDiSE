@@ -27,15 +27,19 @@ for id in "${existing_ids[@]}"; do
 done
 
 # Output the disappeared images in JSON format
-echo "["
-if [[ ${#disappeared_images[@]} -gt 0 ]]; then
-    for ((i=0; i<${#disappeared_images[@]}-1; i++)); do
-        echo "${disappeared_images[$i]},"
-    done
-    echo "${disappeared_images[-1]}"
-fi
-echo "]"
+result=$(
+    echo "["
+    if [[ ${#disappeared_images[@]} -gt 0 ]]; then
+        for ((i=0; i<${#disappeared_images[@]}-1; i++)); do
+            echo "${disappeared_images[$i]},"
+        done
+        echo "${disappeared_images[-1]}"
+    fi
+    echo "]"
+)
 
+
+java -jar /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/worker.jar 6 "$result" >> log.txt
 
 # Update the existing IDs file with the current IDs
 echo "${current_ids[@]}" > "$existing_ids_file"

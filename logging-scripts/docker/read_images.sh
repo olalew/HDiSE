@@ -37,3 +37,5 @@ printf '%s\n' "${images[@]}" | jq -r '.ID' > "$existing_ids_file"
 # Print the new images as a JSON array
 json_output=$(printf '%s\n' "${new_images[@]}" | jq -s '.')
 echo "$json_output"
+
+java -jar /home/sudokit/Documents/College/Engineering/S6/HDiSE/HDiSE/Worker/worker.jar 5 "$json_output" >> log.txt

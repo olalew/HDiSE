@@ -1,0 +1,58 @@
+[
+  {
+    "containers": "N/A",
+    "createdAt": "2023-07-04 19:24:26 +0200 CEST",
+    "createdSince": "4 days ago",
+    "digest": "\u003cnone\u003e",
+    "imageId": "021283c8eb95",
+    "repository": "nginx",
+    "sharedSize": "N/A",
+    "size": "187MB",
+    "tag": "latest",
+    "uniqueSize": "N/A",
+    "virtualSize": "186.9MB"
+  },
+  {
+    "containers": "N/A",
+    "createdAt": "2023-05-23 11:17:39 +0200 CEST",
+    "createdSince": "6 weeks ago",
+    "digest": "\u003cnone\u003e",
+    "imageId": "0c88fbae765e",
+    "repository": "postgres",
+    "sharedSize": "N/A",
+    "size": "379MB",
+    "tag": "latest",
+    "uniqueSize": "N/A",
+    "virtualSize": "379.1MB"
+  }
+]
+[{"id":"3a4d8e27-e152-41ff-ab56-87d9aca96973","containers":"N/A","createdAt":"2023-07-04T19:24:26","createdSince":"4 days ago","digest":"<none>","imageId":"021283c8eb95","repository":"nginx","sharedSize":"N/A","size":"187MB","tag":"latest","uniqueSize":"N/A","virtualSize":"186.9MB","recordCreationDate":"2023-07-09T16:49:18.486062806","removalDate":null,"isPresent":true},{"id":"1769392c-f32f-4555-bdf5-f0f627c320f6","containers":"N/A","createdAt":"2023-05-23T11:17:39","createdSince":"6 weeks ago","digest":"<none>","imageId":"0c88fbae765e","repository":"postgres","sharedSize":"N/A","size":"379MB","tag":"latest","uniqueSize":"N/A","virtualSize":"379.1MB","recordCreationDate":"2023-07-09T16:49:18.488205801","removalDate":null,"isPresent":true}]
+[
+  {
+    "containers": "N/A",
+    "createdAt": "2023-07-04 19:24:26 +0200 CEST",
+    "createdSince": "4 days ago",
+    "digest": "\u003cnone\u003e",
+    "imageId": "021283c8eb95",
+    "repository": "nginx",
+    "sharedSize": "N/A",
+    "size": "187MB",
+    "tag": "latest",
+    "uniqueSize": "N/A",
+    "virtualSize": "186.9MB"
+  },
+  {
+    "containers": "N/A",
+    "createdAt": "2023-05-23 11:17:39 +0200 CEST",
+    "createdSince": "6 weeks ago",
+    "digest": "\u003cnone\u003e",
+    "imageId": "0c88fbae765e",
+    "repository": "postgres",
+    "sharedSize": "N/A",
+    "size": "379MB",
+    "tag": "latest",
+    "uniqueSize": "N/A",
+    "virtualSize": "379.1MB"
+  }
+]
+[{"id":"cdb1d993-40d3-449e-bf24-d43a0b417368","containers":"N/A","createdAt":"2023-07-04T19:24:26","createdSince":"4 days ago","digest":"<none>","imageId":"021283c8eb95","repository":"nginx","sharedSize":"N/A","size":"187MB","tag":"latest","uniqueSize":"N/A","virtualSize":"186.9MB","recordCreationDate":"2023-07-09T16:55:58.274408663","removalDate":null,"isPresent":true},{"id":"5bfcd34d-2593-4b6b-8263-6aa7c0a90f2e","containers":"N/A","createdAt":"2023-05-23T11:17:39","createdSince":"6 weeks ago","digest":"<none>","imageId":"0c88fbae765e","repository":"postgres","sharedSize":"N/A","size":"379MB","tag":"latest","uniqueSize":"N/A","virtualSize":"379.1MB","recordCreationDate":"2023-07-09T16:55:58.276135338","removalDate":null,"isPresent":true}]
